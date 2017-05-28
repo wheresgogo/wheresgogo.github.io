@@ -1,2 +1,2 @@
 # wheresgogo.github.io
-personal website
+This is where I will host my Jekyll based blog website.
