@@ -18,15 +18,8 @@ email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   Hi, I'm Gogo. I'm currently setting up my website -- stay tuned! TTYL
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
+url: "https://wheresgogo.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  wheresgogo
 
 # Build settings
 markdown: kramdown
-theme: minima
-gems:
-  - jekyll-feed
-exclude:
-  - Gemfile
-  - Gemfile.lock
