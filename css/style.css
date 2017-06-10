@@ -626,6 +626,10 @@
 		width: 100%;
 		z-index: 10000;
 	}
+		#header img {
+			width: 10%;
+			height: auto;
+		}
 
 		#header h1 {
 			font-weight: 900;
@@ -851,6 +855,13 @@
 					padding-left: 0.05em;
 					position: relative;
 					text-transform: uppercase;
+					fill: white;
+				}
+
+				#banner .inner header h2 svg {
+					width: 100%;
+					height: auto;
+					fill: white;
 				}
 
 			#banner .inner p {

@@ -22,4 +22,5 @@ url: "https://wheresgogo.com" # the base hostname & protocol for your site, e.g.
 github_username:  wheresgogo
 
 # Build settings
+exclude: ["LICENSE.txt", "README.md"]
 markdown: kramdown
