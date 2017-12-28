@@ -249,7 +249,7 @@
 	}
 
 		.image:before {
-			background: url("images/overlay.png");
+			/* background: url("images/overlay.png"); */
 			content: '';
 			height: 100%;
 			left: 0;
@@ -688,7 +688,7 @@
 
 				#header nav ul li.submenu > a:before {
 					content: '\f107';
-					margin-right: 0.65em;
+					margin-right: 0.75em;
 				}
 
 				#header nav ul li.active > a, #header nav ul li:hover > a {
@@ -810,7 +810,7 @@
 	#banner {
 		background-attachment: scroll, fixed;
 		background-color: #645862;
-		background-image: url("images/overlay.png"), url("../images/coverphoto2.jpg");
+		background-image: url("images/overlay.png"), url("../images/coverphoto.jpg");
 		background-position: top left, top center;
 		background-repeat: repeat, no-repeat;
 		background-size: auto, cover;

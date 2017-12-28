@@ -2,6 +2,7 @@
 layout: post
 title: "San Francisco Eats"
 date: 2017-08-27
+tags: featured
 ---
 
 My boyfriend and I went to San Francisco during Christmas this past year, and boy did we eat! I’ve been reminiscing about this trip recently and thinking of all the tasty foods we had so I decided I’d share some of my favorites (in no particular order).

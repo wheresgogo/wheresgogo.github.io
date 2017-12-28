@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Contact Gogo - Where's Gogo
 ---
 
 		<!-- Main -->
@@ -8,15 +9,16 @@ layout: default
 				<header class="special container">
 					<span class="icon fa-envelope"></span>
 					<h2>Get In Touch</h2>
-					<p>Use the form below to give /dev/null a piece of your mind.</p>
+					<p>I would love to hear from you!</p>
 				</header>
-					
+
 				<!-- One -->
 					<section class="wrapper style4 special container small">
-					
+
 						<!-- Content -->
 							<div class="content">
-								<form>
+								<form id="formaction" method="POST">
+									<input type="text" name="_gotcha" style="display:none" />
 									<div class="row half collapse-at-2">
 										<div class="6u">
 											<input type="text" name="name" placeholder="Name" />
@@ -42,9 +44,12 @@ layout: default
 											</ul>
 										</div>
 									</div>
+									<input type="hidden" name="_next" value="{{ site.baseurl }}/thanks.html" />
 								</form>
+								<script>
+    								var contactform =  document.getElementById('formaction');
+    								contactform.setAttribute('action', 'https://formspree.io/' + 'placeholderemail' + '@' + 'gmail' + '.' + 'com');
+								</script>
 							</div>
-							
 					</section>
-				
 			</article>
